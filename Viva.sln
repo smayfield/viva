@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viva.Console", "Viva.Consol
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viva.Facebook", "Viva.Facebook\Viva.Facebook.csproj", "{FF644DAC-6E97-4834-BE62-97F963E859F9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viva.Api", "Viva.Api\Viva.Api.csproj", "{3A9D3D28-B749-45CC-A3EF-8D8397BDE2E9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{FF644DAC-6E97-4834-BE62-97F963E859F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FF644DAC-6E97-4834-BE62-97F963E859F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FF644DAC-6E97-4834-BE62-97F963E859F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A9D3D28-B749-45CC-A3EF-8D8397BDE2E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A9D3D28-B749-45CC-A3EF-8D8397BDE2E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A9D3D28-B749-45CC-A3EF-8D8397BDE2E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A9D3D28-B749-45CC-A3EF-8D8397BDE2E9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
