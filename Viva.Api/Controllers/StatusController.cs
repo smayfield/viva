@@ -11,7 +11,7 @@ namespace Viva.Api.Controllers
     public class StatusController : ApiController
     {
         [Route("api/status/{userId}"), HttpGet]
-        public List<Status> GetStatus(string userId)
+        public List<Status> GetStatus(int userId)
         {
             var feed = new List<Status>();
             for (int i = 0; i < 10; i++)
@@ -22,7 +22,7 @@ namespace Viva.Api.Controllers
                     PostedOn = DateTime.Now,
                     User = new User()
                     {
-                        Id = 1,
+                        Id = userId,
                         UserName = "jdoe",
                         FirstName = "John",
                         LastName = "Doe"
@@ -41,7 +41,7 @@ namespace Viva.Api.Controllers
         }
 
         [Route("api/status/{networkUrlSlug}/{userId}"), HttpGet]
-        public List<Status> GetStatus(string networkUrlSlug, string userId)
+        public List<Status> GetStatus(string networkUrlSlug, int userId)
         {
             var feed = new List<Status>();
             for (int i = 0; i < 10; i++)
@@ -52,7 +52,7 @@ namespace Viva.Api.Controllers
                     PostedOn = DateTime.Now,
                     User = new User()
                     {
-                        Id = 1,
+                        Id = userId,
                         UserName = "jdoe",
                         FirstName = "John",
                         LastName = "Doe"
